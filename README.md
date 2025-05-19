@@ -6,12 +6,13 @@
 
 This repository contains the complete implementation of a character-level sequence-to-sequence transliteration system using RNNs (Vanilla RNN, LSTM, GRU) with and without attention mechanisms. The model has been trained and evaluated on the Gujarati subset of the Dakshina dataset, tackling the task of converting Latin-script inputs to native Gujarati script.
 
-Following problems have been covered in this assignment work : 
+## Task Details
 1. Model building & complexity analysis (Q1)
 2. Hyperparameter tuning with Weights & Biases sweeps (Q2)
-3. Test‑set evaluation & sample predictions (Q3)
-4. Attention‑augmented decoder and heatmap visualizations (Q5)
-5. Connectivity visualization between encoder and decoder states (Q6)
+3. Inferences based on hyperparameter tuning (Q3)
+4. Test‑set evaluation & sample predictions (Q4)
+5. Attention‑augmented decoder and heatmap visualizations (Q5)
+6. Connectivity visualization between encoder and decoder states (Q6)
 
 ## Project Structure
 ```
