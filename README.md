@@ -21,6 +21,7 @@ This repository contains the complete implementation of a character-level sequen
 │   ├── vocab.py             # CharVocab: encode/decode utilities
 │   ├── models.py            # Encoder, Decoder, Seq2Seq (RNN/GRU/LSTM)
 │   ├── train.py             # train_loop, eval_loop functions
+|   ├── train_best.py        # checkpoints for best trained model
 │   ├── test_eval.py         # Exact‑match test evaluation script
 │   └── predictions_vanilla/
 │       ├── vanilla_best.pth     # Best checkpoint from sweep
@@ -31,14 +32,14 @@ This repository contains the complete implementation of a character-level sequen
 │   ├── vocab.py             # (same as Vanilla)
 │   ├── models.py            # + BahdanauAttention, AttentionDecoder
 │   ├── train.py             # train_attention, evaluate_attention
+|   ├── train_best.py        # checkpoints for best trained model
 │   ├── test_eval.py         # evaluate vanilla vs. attention
 │   ├── sample_grid.py       # Generates and saves 3×3 attention heatmaps
-│   ├── Question_6.py        # Connectivity visualization script
+|   ├── Question_5c.py       # sample grid (attention heatmap)
+│   ├── Question_6.py        # connectivity visualization script
 │   └── predictions_attention/
 │       ├── best_attn_model.pth    # Best attention model checkpoint
 │       └── attention_heatmaps.png # Sample attention heatmaps
-│
-└── sweep_config.py         # Updated hyperparameter sweep configuration
 ```
 
 ## Prerequisites
